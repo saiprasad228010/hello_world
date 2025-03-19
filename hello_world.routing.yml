@@ -1,0 +1,23 @@
+hello_world.hellomsg:
+  path: '/hello_world'
+  defaults:
+    _controller: 'Drupal\hello_world\controller\hello_worldcontroller::message'
+    _title: 'hello world!!'
+  requirements:
+    _permission: 'access content'
+
+hello_world.information:
+  path: '/information'
+  defaults:
+    _controller: '\Drupal\hello_world\controller\hello_worldcontroller::information'
+    _title: ''
+  requirements:
+   _permission: 'access content'
+
+hello_world.details:
+  # path: '/details'
+  # defaults:
+  #   _controller: '\Drupal\hello_world\controller\hello_worldcontroller::details'
+  #   _title: ''
+  # requirements:
+  #  _permission: 'access content'
