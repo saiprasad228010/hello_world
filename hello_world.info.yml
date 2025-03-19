@@ -1,0 +1,6 @@
+name: hello world 
+type: module
+discription: hello world module
+core_version_requirement: ^11
+package: custom
+ 
